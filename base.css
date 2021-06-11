@@ -1,0 +1,53 @@
+:root {
+    --primary-color: #009900;
+   --black-color : #000;
+    --text-color: #333333;
+    --white-color: #fff;
+}
+
+* {
+    box-sizing: inherit;
+    /*inherit// là kế thừ từ thẻ chứa nó */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+html {
+    /* Ta đặt vậy để đổi 1 rem = 10px .*/
+    line-height: 1.6rem;
+    /*chiều cao dòng*/
+    /* Muốn lấy pont chữ cho trang web search: google roboto font. */
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+@keyframes colorpage {
+    form {
+        background-color: rgb(216, 228, 215);
+    }
+    to {
+        background-color: rgb(5, 153, 0);
+    }
+}
+/* chuyển động danh mục sản phẩm */
+@keyframes fadeInFromNone {
+    0% {
+        margin-top: 20px;
+        display: none;
+        opacity: 0;
+    }
+    100% {
+        font-display: flex;
+        opacity: 1;
+       
+
+    }
+}
